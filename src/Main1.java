@@ -8,21 +8,21 @@ public class Main1 {
         if (sc.hasNextDouble()) {
             n1 = sc.nextDouble();
         } else {
-            System.out.println("Помилка! Ви ввели не дробове число.");
+            System.out.println("ви ввели не дробове число");
             return;
         }
         System.out.print("Число 2: ");
         if (sc.hasNextDouble()) {
             n2 = sc.nextDouble();
         } else {
-            System.out.println("Помилка! Ви ввели не дробове число.");
+            System.out.println("ви ввели не дробове число.");
             return;
         }
         System.out.print("Число 3: ");
         if (sc.hasNextDouble()) {
             n3 = sc.nextDouble();
         } else {
-            System.out.println("Помилка! Ви ввели не дробове число.");
+            System.out.println("ви ввели не дробове число.");
             return;
         }
         double max = Math.max(n1, Math.max(n2, n3));

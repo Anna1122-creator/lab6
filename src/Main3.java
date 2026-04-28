@@ -1,11 +1,10 @@
 import java.util.Scanner;
-
 public class Main3 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-            System.out.print("Введіть перший рядок: ");
+            System.out.print("перший рядок: ");
             String str1 = sc.nextLine();
-            System.out.print("Введіть другий рядок: ");
+            System.out.print("другий рядок: ");
             String str2 = sc.nextLine();
             if (str1.length() > str2.length()) {
                 System.out.println("Перший рядок довший. Кількість символів: " + str1.length());
